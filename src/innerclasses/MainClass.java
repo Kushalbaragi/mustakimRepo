@@ -1,8 +1,10 @@
 package innerclasses;
-
-class MainClass{
+     class MainClass{
     int x=20;
 
+   static class InnerClass{
+
+    }
     void add(){
         x=x+20;
         System.out.println("x : "+x);

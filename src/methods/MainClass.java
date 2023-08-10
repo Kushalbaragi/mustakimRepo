@@ -22,3 +22,17 @@ class C implements A,B{//suppose if it were
 
     }
 }
+
+class MyClass{
+    int a=20;
+   static int b=20;
+
+    public static void access(){
+        System.out.println(b);
+    }
+
+    public static void main(String[] args) {
+        access();
+        System.out.println(new MyClass().a);
+    }
+}
